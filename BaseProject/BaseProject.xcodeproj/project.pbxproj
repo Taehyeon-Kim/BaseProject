@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,7 +23,10 @@
 		BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */; };
 		BD6067CD26B45F10009EBFE2 /* NetworkSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CC26B45F10009EBFE2 /* NetworkSample.swift */; };
 		BD6067CF26B45F1A009EBFE2 /* ExtensionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CE26B45F1A009EBFE2 /* ExtensionSample.swift */; };
-		BD6067D126B45F34009EBFE2 /* ConstantSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067D026B45F34009EBFE2 /* ConstantSample.swift */; };
+		BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067D026B45F34009EBFE2 /* Constants.swift */; };
+		BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F7E26B5949800C80F82 /* Design.swift */; };
+		BDAF8F8326B594DE00C80F82 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F8226B594DE00C80F82 /* Network.swift */; };
+		BDAF8F8726B5953300C80F82 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F8626B5953300C80F82 /* Identity.swift */; };
 		D044ACB213D7942D0A17C746 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62ED7BF1175BECFC350022 /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +50,10 @@
 		BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSample.swift; sourceTree = "<group>"; };
 		BD6067CC26B45F10009EBFE2 /* NetworkSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSample.swift; sourceTree = "<group>"; };
 		BD6067CE26B45F1A009EBFE2 /* ExtensionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSample.swift; sourceTree = "<group>"; };
-		BD6067D026B45F34009EBFE2 /* ConstantSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantSample.swift; sourceTree = "<group>"; };
+		BD6067D026B45F34009EBFE2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDAF8F7E26B5949800C80F82 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		BDAF8F8226B594DE00C80F82 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BDAF8F8626B5953300C80F82 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
 		F2573AE48B33188635011CD3 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FF62ED7BF1175BECFC350022 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,7 +84,6 @@
 				F2573AE48B33188635011CD3 /* Pods-BaseProject.debug.xcconfig */,
 				8C86ADE9235F3EE624CD71EF /* Pods-BaseProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,7 +180,10 @@
 		BD6067A726B457D8009EBFE2 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				BD6067D026B45F34009EBFE2 /* ConstantSample.swift */,
+				BD6067D026B45F34009EBFE2 /* Constants.swift */,
+				BDAF8F7E26B5949800C80F82 /* Design.swift */,
+				BDAF8F8626B5953300C80F82 /* Identity.swift */,
+				BDAF8F8226B594DE00C80F82 /* Network.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -376,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */,
-				BD6067D126B45F34009EBFE2 /* ConstantSample.swift in Sources */,
+				BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */,
 				BD60678E26B44B02009EBFE2 /* AppDelegate.swift in Sources */,
 				BD6067C926B45EC5009EBFE2 /* FontSample.swift in Sources */,
 				BD6067B726B45E00009EBFE2 /* BaseViewController.swift in Sources */,
@@ -384,6 +392,9 @@
 				BD60679026B44B02009EBFE2 /* SceneDelegate.swift in Sources */,
 				BD6067C126B45E95009EBFE2 /* ModelSample.swift in Sources */,
 				BD6067CD26B45F10009EBFE2 /* NetworkSample.swift in Sources */,
+				BDAF8F8726B5953300C80F82 /* Identity.swift in Sources */,
+				BDAF8F8326B594DE00C80F82 /* Network.swift in Sources */,
+				BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */,
 				BD6067B526B45C92009EBFE2 /* SampleViewController.swift in Sources */,
 				BD6067C326B45EA0009EBFE2 /* ServiceSample.swift in Sources */,
 				BD6067C726B45EAF009EBFE2 /* ViewModelSample.swift in Sources */,
