@@ -21,13 +21,20 @@
 		BD6067C726B45EAF009EBFE2 /* ViewModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067C626B45EAF009EBFE2 /* ViewModelSample.swift */; };
 		BD6067C926B45EC5009EBFE2 /* FontSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067C826B45EC5009EBFE2 /* FontSample.swift */; };
 		BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */; };
-		BD6067CF26B45F1A009EBFE2 /* ExtensionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067CE26B45F1A009EBFE2 /* ExtensionSample.swift */; };
 		BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6067D026B45F34009EBFE2 /* Constants.swift */; };
 		BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F7E26B5949800C80F82 /* Design.swift */; };
 		BDAF8F8326B594DE00C80F82 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F8226B594DE00C80F82 /* Network.swift */; };
 		BDAF8F8726B5953300C80F82 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF8F8626B5953300C80F82 /* Identity.swift */; };
 		BDE2CF3326B59A6E005D2668 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3226B59A6E005D2668 /* APIRouter.swift */; };
 		BDE2CF3526B59C5F005D2668 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3426B59C5F005D2668 /* APIClient.swift */; };
+		BDE2CF3726B5A4B8005D2668 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3626B5A4B8005D2668 /* UITableView+.swift */; };
+		BDE2CF3926B5A539005D2668 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3826B5A539005D2668 /* UICollectionView+.swift */; };
+		BDE2CF3B26B5A5CF005D2668 /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3A26B5A5CF005D2668 /* CALayer+.swift */; };
+		BDE2CF3D26B5A684005D2668 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3C26B5A684005D2668 /* UIStackView+.swift */; };
+		BDE2CF3F26B5A6F8005D2668 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF3E26B5A6F8005D2668 /* UIView+.swift */; };
+		BDE2CF4126B5AD6B005D2668 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF4026B5AD6B005D2668 /* UIColor+.swift */; };
+		BDE2CF4326B5AD74005D2668 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF4226B5AD74005D2668 /* UIFont+.swift */; };
+		BDE2CF4E26B5B000005D2668 /* Formatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE2CF4D26B5B000005D2668 /* Formatter+.swift */; };
 		D044ACB213D7942D0A17C746 /* Pods_BaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62ED7BF1175BECFC350022 /* Pods_BaseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,13 +56,20 @@
 		BD6067C626B45EAF009EBFE2 /* ViewModelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSample.swift; sourceTree = "<group>"; };
 		BD6067C826B45EC5009EBFE2 /* FontSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSample.swift; sourceTree = "<group>"; };
 		BD6067CA26B45ECD009EBFE2 /* AnimationSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSample.swift; sourceTree = "<group>"; };
-		BD6067CE26B45F1A009EBFE2 /* ExtensionSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSample.swift; sourceTree = "<group>"; };
 		BD6067D026B45F34009EBFE2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BDAF8F7E26B5949800C80F82 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		BDAF8F8226B594DE00C80F82 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		BDAF8F8626B5953300C80F82 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
 		BDE2CF3226B59A6E005D2668 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		BDE2CF3426B59C5F005D2668 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BDE2CF3626B5A4B8005D2668 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		BDE2CF3826B5A539005D2668 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		BDE2CF3A26B5A5CF005D2668 /* CALayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
+		BDE2CF3C26B5A684005D2668 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		BDE2CF3E26B5A6F8005D2668 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		BDE2CF4026B5AD6B005D2668 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		BDE2CF4226B5AD74005D2668 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		BDE2CF4D26B5B000005D2668 /* Formatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+.swift"; sourceTree = "<group>"; };
 		F2573AE48B33188635011CD3 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		FF62ED7BF1175BECFC350022 /* Pods_BaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +207,14 @@
 		BD6067A826B45823009EBFE2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BD6067CE26B45F1A009EBFE2 /* ExtensionSample.swift */,
+				BDE2CF3A26B5A5CF005D2668 /* CALayer+.swift */,
+				BDE2CF4D26B5B000005D2668 /* Formatter+.swift */,
+				BDE2CF4226B5AD74005D2668 /* UIFont+.swift */,
+				BDE2CF4026B5AD6B005D2668 /* UIColor+.swift */,
+				BDE2CF3E26B5A6F8005D2668 /* UIView+.swift */,
+				BDE2CF3C26B5A684005D2668 /* UIStackView+.swift */,
+				BDE2CF3626B5A4B8005D2668 /* UITableView+.swift */,
+				BDE2CF3826B5A539005D2668 /* UICollectionView+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -389,20 +410,27 @@
 				BD6067CB26B45ECD009EBFE2 /* AnimationSample.swift in Sources */,
 				BDE2CF3326B59A6E005D2668 /* APIRouter.swift in Sources */,
 				BD6067D126B45F34009EBFE2 /* Constants.swift in Sources */,
+				BDE2CF3726B5A4B8005D2668 /* UITableView+.swift in Sources */,
 				BD60678E26B44B02009EBFE2 /* AppDelegate.swift in Sources */,
+				BDE2CF3926B5A539005D2668 /* UICollectionView+.swift in Sources */,
 				BD6067C926B45EC5009EBFE2 /* FontSample.swift in Sources */,
+				BDE2CF3D26B5A684005D2668 /* UIStackView+.swift in Sources */,
+				BDE2CF3F26B5A6F8005D2668 /* UIView+.swift in Sources */,
 				BD6067B726B45E00009EBFE2 /* BaseViewController.swift in Sources */,
 				BD6067BF26B45E8A009EBFE2 /* CellSample.swift in Sources */,
 				BD60679026B44B02009EBFE2 /* SceneDelegate.swift in Sources */,
 				BD6067C126B45E95009EBFE2 /* ModelSample.swift in Sources */,
 				BDAF8F8726B5953300C80F82 /* Identity.swift in Sources */,
 				BDAF8F8326B594DE00C80F82 /* Network.swift in Sources */,
+				BDE2CF3B26B5A5CF005D2668 /* CALayer+.swift in Sources */,
+				BDE2CF4E26B5B000005D2668 /* Formatter+.swift in Sources */,
+				BDE2CF4326B5AD74005D2668 /* UIFont+.swift in Sources */,
 				BDAF8F7F26B5949800C80F82 /* Design.swift in Sources */,
+				BDE2CF4126B5AD6B005D2668 /* UIColor+.swift in Sources */,
 				BD6067B526B45C92009EBFE2 /* SampleViewController.swift in Sources */,
 				BD6067C326B45EA0009EBFE2 /* ServiceSample.swift in Sources */,
 				BD6067C726B45EAF009EBFE2 /* ViewModelSample.swift in Sources */,
 				BD6067C526B45EA7009EBFE2 /* ViewSample.swift in Sources */,
-				BD6067CF26B45F1A009EBFE2 /* ExtensionSample.swift in Sources */,
 				BDE2CF3526B59C5F005D2668 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
