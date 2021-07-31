@@ -7,11 +7,15 @@
 
 import UIKit
 
-class SampleViewController: UIViewController {
+class SampleViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    }
+    
+    override func setupUI() {
+        super.setupUI()
+        print("SampleViewController setupUI() Override.")
     }
 }
